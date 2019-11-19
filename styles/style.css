@@ -1,0 +1,164 @@
+body{
+    font-family: 'RobotoRegular';
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-family: 'RobotoMedium';
+}
+p{
+    color: #666;
+    font-family: 'RobotoLight';
+}
+.header{
+    width: 100%;
+    background-image: url(../img/bg1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header--top{
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 100;;
+}
+.header--logo,.header--nav{
+    height: 60px;
+}
+.header--logo{
+    font-size: 20px;
+    font-family: 'RobotoBold';
+    color: white;
+}
+.btn-mx-default{
+    color: black;
+    background-color: rgb(50, 122, 205);
+    font-family: 'RobotoMedium';
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 25px;
+}
+.btn-mx-default:hover{
+    background-color: #333;
+    color: white;
+    transition-duration: 0.3s;
+}
+.filter{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.header--photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+.header--bot{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header--caption{
+    color : white;
+}
+.header--photo,.header--caption{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header--caption h5{
+    font-size: 24px;
+    color: white;
+    font-family: 'RobotoBold';
+}
+.header--caption p{
+    font-family: 'RobotoLight';
+    font-size: 14px;
+    color: white;
+}
+.header--caption li{
+    font-family: 'RobotoLight';
+    list-style: none;;
+}
+.header--caption ul{
+    margin-left: -40px;
+}
+.caption-info{
+    color: rgb(50, 122, 205);
+    font-family: 'RobotoMedium';
+}
+.caption-info:hover{
+    cursor: pointer;
+    color: white;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.about-me{
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
+.about-me p{
+    font-size: 18px;
+}
+.date{
+    color: rgb(50, 122, 205);
+    font-family: 'RobotoBold';
+    font-size: 14px;
+}
+.education-item{
+    border-left: 1px solid #666;
+    padding: 20px;
+}
+.education-item::before{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #666;
+    position: absolute;
+    content: "";
+    top : 0;
+    left: 10px;
+}
+.skills{
+    background-color: rgb(50, 122, 205);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.skills-item{
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'RobotoMedium';
+}
+.contact{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.contact h3{
+    color: white;
+}
+.contact input,.contact textarea{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding : 10px;
+}
+.footer{
+    padding : 20px;
+    color: white;
+    background-color: black;
+}
+.footer h6{
+    color: white;
+}
